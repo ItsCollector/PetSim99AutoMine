@@ -3,7 +3,6 @@
 SendMode Input
 #SingleInstance Force  
 SetWorkingDir %A_ScriptDir%  
-#Include %A_ScriptDir%\lib\CameraControl_lib.ahk
 
 currentAction := "idle"
 workerActive := "No"
